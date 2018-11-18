@@ -2,6 +2,11 @@ package com.java4j.lock.testsynchronized;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 测试用户类
+ *
+ * @author java4j
+ */
 public class User {
     public synchronized void serviceA() {
         System.out.println(Thread.currentThread().getName() + " Begin serviceA.");
